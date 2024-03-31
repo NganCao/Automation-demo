@@ -1,0 +1,17 @@
+{
+  "materialCategories": [
+    {
+      "name": "Cafe",
+      "materials": [
+        "Cà phê đen pha sẵn Auto"
+      ]
+    },
+    {
+      "name": "Khác",
+      "materials": [
+        "Đá viên Auto",
+        "Thạch rau câu auto"
+      ]
+    }
+  ]
+}

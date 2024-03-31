@@ -1,0 +1,38 @@
+{
+  "topping": [
+    {
+      "name": "Thạch topping",
+      "image": "resources/image/toppings/thachraucau.jpg",
+      "price": "2000",
+      "platforms": [
+        {
+          "name" : "Store Web"
+        }
+      ],
+      "unit": "gam",
+      "productInventoryData": [
+        {
+          "quantity": "40",
+          "material": "Thạch rau câu auto"
+        }
+      ]
+    },
+    {
+      "name": "Cream auto",
+      "image": "resources/image/toppings/cream.png",
+      "price": "10000",
+      "platforms": [
+        {
+          "name" : "POS"
+        }
+      ],
+      "unit": "gam",
+      "productInventoryData": [
+        {
+          "quantity": "100",
+          "material": "Kem béo auto"
+        }
+      ]
+    }
+  ]
+}

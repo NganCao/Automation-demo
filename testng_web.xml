@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite for Web platform">
+    <listeners>
+        <listener class-name="com.fnb.utils.helpers.HelperListener"></listener>
+    </listeners>
+    <test name="test for store web - THEME 1">
+        <parameter name="platform" value="store"/>
+        <parameter name="theme" value="theme1"/>
+        <classes>
+            <class name="com.fnb.web.store.theme1.scenario_test.login.LoginScenarioTest"/>
+            <class name="com.fnb.web.store.theme1.scenario_test.home.flashsale.FlashsaleScenariosPart2"/>
+        </classes>
+    </test>
+    <test name="test for store web - THEME 2">
+        <parameter name="theme" value="theme2"/>
+        <parameter name="platform" value="store"/>
+        <classes>
+            <class name="com.fnb.web.store.theme2.scenario_test.login.LoginScenarioTest"/>
+            <class name="com.fnb.web.store.theme2.scenario_test.login.CheckoutLoginScenarioTest"/>
+        </classes>
+    </test>
+</suite>

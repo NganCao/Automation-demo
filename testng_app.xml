@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite In App" >
+    <test name="Run test LinStore">
+        <parameter name="platform" value="Android"/>
+        <parameter name="storeName" value="LinStore"/>
+        <classes>
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.login.LoginScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.authenticationusingpassword.changepassword.ChangePassScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.searchbar.SearchBarScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.register.registerlink.RegisterScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.register.deliverybtn.RegisterScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.register.checkoutpage.RegisterScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.addressmanagement.homepage.delivery.addressmanagementlist.AddressManagementListScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.addressmanagement.homepage.delivery.addnewaddress.AddNewAddressScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.linstore.scenationtests.addressmanagement.homepage.delivery.editanddeleteanaddress.EditAnAddressScenatioTest"/>-->
+            <class name="com.fnb.app.android.linstore.scenationtests.addressmanagement.userlocation.UserLocationScenarioTest"/>
+        </classes>
+    </test>
+<!--    <test name="Run test KemStore">-->
+<!--        <parameter name="platform" value="Android"/>-->
+<!--        <parameter name="storeName" value="KemStore"/>-->
+<!--        <classes>-->
+<!--            <class name="com.fnb.app.android.kemstore.scenationtests.login.LoginScenarioTest"/>-->
+<!--            <class name="com.fnb.app.android.kemstore.scenationtests.register.RegisterScenarioTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

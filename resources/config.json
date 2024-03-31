@@ -1,0 +1,38 @@
+{
+  "admin": {
+  },
+  "store": {
+    "theme1": {
+      "dev": "https://phuclongcualin.qa.beecowdeal.vn/",
+      "stag": "https://hysstore.stag.beecowdeal.vn/",
+      "prod": "https://cloudstore.gofnb.gosell.vn/"
+    },
+    "theme2": {
+      "dev": "https://candystore.qa.beecowdeal.vn/",
+      "stag": "https://donutstore.stag.beecowdeal.vn/",
+      "prod": "https://sushiii.gofnb.gosell.vn/"
+    },
+    "env": "stag",
+    "timeout": 20,
+    "browser": "chrome",
+    "path": {
+      "screenshot": "screenshot"
+    },
+    "route": {
+      "login": "login",
+      "home": "home",
+      "registerAccount": "register-account",
+      "productManagement": "product-list"
+    },
+    "web_driver_path": {
+      "linux": {
+        "chrome": "/usr/local/bin/chromedriver-linux64/chromedriver"
+      },
+      "win": {
+        "chrome": "src/main/java/com/fnb/web/webdriver/windown/chrome/chromedriver.exe"
+      }
+    }
+  },
+  "pos": {
+  }
+}

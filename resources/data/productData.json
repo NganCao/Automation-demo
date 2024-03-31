@@ -1,0 +1,211 @@
+{
+  "product": [
+    {
+      "name": "Product Auto",
+      "image": "resources/image/GoFnB_Logo.png",
+      "price": [
+        {
+          "priceName" : "",
+          "priceValue" : "23000",
+          "position" : "0"
+        }
+      ],
+      "platforms": [
+        {
+          "name" : "Store Web"
+        }
+      ],
+      "tax": "tax1",
+      "unit": "ly",
+      "productInventoryData": [
+        {
+          "name": "test",
+          "listProductPriceMaterials": [
+            {
+              "priceName": "",
+              "quantity": "40",
+              "material": "Cà phê đen pha sẵn Auto"
+            }
+          ]
+        }
+      ],
+      "option": [
+        {
+          "name": "Cafe"
+        }
+      ],
+      "topping": [
+        {
+          "name": "Thạch topping"
+        },
+        {
+          "name": "Cream auto"
+        }
+      ],
+      "productCategoryName": "Cafe"
+    },
+    {
+      "name": "Phin Đen Đá Auto",
+      "image": "resources/image/products/phindenda.jpg",
+      "price": [
+        {
+          "priceName" : "S",
+          "priceValue" : "23000",
+          "position" : "1"
+        },
+        {
+          "priceName" : "M",
+          "priceValue" : "23000",
+          "position" : "2"
+        },
+        {
+          "priceName" : "L",
+          "priceValue" : "23000",
+          "position" : "3"
+        }
+      ],
+      "platforms": [
+        {
+          "name" : "POS"
+        }
+      ],
+      "tax": "tax2",
+      "unit": "ly",
+      "productInventoryData": [
+        {
+          "listProductPriceMaterials": [
+            {
+              "priceName": "S",
+              "material": "Cà phê đen pha sẵn Auto",
+              "quantity": "40",
+              "position": "1"
+            },
+            {
+              "priceName": "S",
+              "material": "Đường nước Auto",
+              "quantity": "15",
+              "position": "1"
+            },
+            {
+              "priceName": "S",
+              "material": "Đá viên Auto",
+              "quantity": "200",
+              "position": "1"
+            }
+          ]
+        },
+        {
+          "listProductPriceMaterials": [
+            {
+              "priceName": "M",
+              "material": "Cà phê đen pha sẵn Auto",
+              "quantity": "40",
+              "position": "2"
+            },
+            {
+              "priceName": "M",
+              "material": "Đường nước Auto",
+              "quantity": "15",
+              "position": "2"
+            },
+            {
+              "priceName": "M",
+              "material": "Đá viên Auto",
+              "quantity": "200",
+              "position": "2"
+            }
+          ]
+        },
+        {
+          "listProductPriceMaterials": [
+            {
+              "priceName": "L",
+              "material": "Cà phê đen pha sẵn Auto",
+              "quantity": "40",
+              "position": "3"
+            },
+            {
+              "priceName": "L",
+              "material": "Đường nước Auto",
+              "quantity": "15",
+              "position": "3"
+            },
+            {
+              "priceName": "L",
+              "material": "Đá viên Auto",
+              "quantity": "200",
+              "position": "3"
+            }
+          ]
+        }
+      ],
+      "option": [
+        {
+          "name": "Cafe"
+        },
+        {
+          "name": "Đá viên"
+        }
+      ],
+      "topping": [
+        {
+          "name": "Thạch topping"
+        }
+      ],
+      "productCategoryName": "Cafe"
+    },
+    {
+      "name": "Cafe sữa Auto",
+      "image": "resources/image/products/caphesua.jpg",
+      "price": [
+        {
+          "priceName" : "",
+          "priceValue" : "23000",
+          "position" : "0"
+        }
+      ],
+      "platforms": [
+        {
+          "name" : "Store App"
+        }
+      ],
+      "tax": "tax1",
+      "unit": "ly",
+      "productInventoryData": [
+        {
+          "listProductPriceMaterials": [
+            {
+              "priceName": "",
+              "material": "Cà phê đen pha sẵn Auto",
+              "quantity": "44"
+            },
+            {
+              "priceName": "",
+              "material": "Đường nước Auto",
+              "quantity": "14"
+            },
+            {
+              "priceName": "",
+              "material": "Đá viên Auto",
+              "quantity": "300"
+            }
+          ]
+        }
+      ],
+      "option": [
+        {
+          "name": "Cafe"
+        },
+        {
+          "name": "Đá viên"
+        }
+      ],
+      "topping": [
+        {
+          "name": "Cream auto"
+        }
+      ],
+      "productCategoryName": "Nước giải khát"
+    }
+  ]
+}

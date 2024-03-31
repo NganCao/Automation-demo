@@ -1,0 +1,41 @@
+{
+  "options": [
+    {
+      "name": "Đá viên",
+      "materialName": "Đá viên Auto",
+      "optionLevels": [
+        {
+          "name": "Ít",
+          "quota": "20"
+        },
+        {
+          "name": "Vừa",
+          "quota": "40"
+        },
+        {
+          "name": "Nhiều",
+          "quota": "60"
+        }
+      ]
+    },
+    {
+      "name": "Cafe",
+      "materialName": "Cà phê đen pha sẵn Auto",
+      "optionLevels": [
+        {
+          "name": "Ít",
+          "setDefault": true,
+          "quota": "20"
+        },
+        {
+          "name": "Vừa",
+          "quota": "40"
+        },
+        {
+          "name": "Nhiều",
+          "quota": "60"
+        }
+      ]
+    }
+  ]
+}

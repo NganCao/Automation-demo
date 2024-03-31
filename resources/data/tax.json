@@ -1,0 +1,19 @@
+{
+  "tax": [
+    {
+      "name": "tax1",
+      "percentage": "10",
+      "taxType": "Selling"
+    },
+    {
+      "name": "tax2",
+      "percentage": "15",
+      "taxType": "Selling"
+    },
+    {
+      "name": "tax3",
+      "percentage": "10",
+      "taxType": "Imported"
+    }
+  ]
+}

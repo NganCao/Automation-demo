@@ -1,0 +1,76 @@
+{
+  "material": [
+    {
+      "name": "Cà phê đen pha sẵn Auto",
+      "unit": "ml",
+      "costPerUnit": "20",
+      "minQuantity": "1",
+      "branch": [
+        {
+          "name": "Bình Thạnh",
+          "quantity": "23"
+        }
+      ]
+    },
+    {
+      "name": "Đường nước Auto",
+      "unit": "ml",
+      "costPerUnit": "2",
+      "minQuantity": "1",
+      "branch": [
+        {
+          "name": "Bình Thạnh",
+          "quantity": "100"
+        }
+      ]
+    },
+    {
+      "name": "Đá viên Auto",
+      "unit": "gam",
+      "costPerUnit": "1",
+      "minQuantity": "1",
+      "branch": [
+        {
+          "name": "Bình Thạnh",
+          "quantity": "10000"
+        }
+      ]
+    },
+    {
+      "name": "Thạch rau câu auto",
+      "unit": "gam",
+      "costPerUnit": "1",
+      "minQuantity": "1",
+      "branch": [
+        {
+          "name": "Bình Thạnh",
+          "quantity": "10000"
+        }
+      ]
+    },
+    {
+      "name": "Kem béo auto",
+      "unit": "gam",
+      "costPerUnit": "1",
+      "minQuantity": "1",
+      "branch": [
+        {
+          "name": "Bình Thạnh",
+          "quantity": "10000"
+        }
+      ]
+    },
+    {
+      "name": "Sữa tươi auto",
+      "unit": "lít",
+      "costPerUnit": "23",
+      "minQuantity": "5000",
+      "branch": [
+        {
+          "name": "Go Food And Beverage",
+          "quantity": "10000"
+        }
+      ]
+    }
+  ]
+}
